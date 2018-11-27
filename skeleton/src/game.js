@@ -11,7 +11,7 @@ class Game {
   play() {
     this.takeTurn();
   }
-  
+
   check() {
     if (this.tracker[this.guessing] == this.guesses[this.guessing]) {
       this.guessing += 1;
@@ -33,7 +33,7 @@ class Game {
   }
 
   gameOver() {
-    alert(`Game Over. You got ${this.turn} points!!!`)
+    alert(`Game Over. You got ${this.turn-1} points!!!`)
   }
 
   randomSquare() {
