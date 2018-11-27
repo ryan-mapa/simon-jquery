@@ -11,10 +11,7 @@ class Game {
   play() {
     this.takeTurn();
   }
-
-  guessing() {
-  }
-
+  
   check() {
     if (this.tracker[this.guessing] == this.guesses[this.guessing]) {
       this.guessing += 1;
