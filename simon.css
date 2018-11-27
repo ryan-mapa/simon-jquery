@@ -1,0 +1,40 @@
+.flash {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+  border: 10px solid black;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 440px;
+}
+
+#square {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 20px;
+  /* border-top-right-radius: 200px; */
+}
+
+#square:hover {
+  cursor: pointer;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
