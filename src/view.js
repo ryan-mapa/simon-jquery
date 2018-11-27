@@ -39,6 +39,8 @@ class View {
   }
 
   setupBoard() {
+    // populates the root element with a $board containing squares
+    
     const $board = $("<div>");
     $board.addClass("black");
     const colors = ['green', 'red', 'yellow', 'blue']
