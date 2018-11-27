@@ -16,9 +16,7 @@ class View {
   static flash($square) {
     // class function that removes css classes and then adds them back
 
-    setTimeout(() => {
-
-    }, 500);
+    setTimeout(() => {}, 500);
   }
 
   press($square) {
@@ -34,8 +32,6 @@ class View {
 
     const $board = $("<div>");
 
-
-    this.$el.append($board);
   }
 }
 
