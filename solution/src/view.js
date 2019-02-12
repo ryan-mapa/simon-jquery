@@ -12,7 +12,7 @@ class View {
     // bind a click handler to each #square that calls press()
 
     this.$el.on("click", "#square", ( event => {
-      const $square = $(event.currentTarget);
+      const $square = $(event.target);
       this.press($square);
     }));
   }
