@@ -30,7 +30,7 @@ class View {
   }
 
   press($square) {
-    // calls flash() and adds to guesses and calls geame's check()
+    // calls flash(), adds to guesses, and calls game's check()
 
     const color = $square.data("color");
     View.flash($square);
@@ -45,7 +45,7 @@ class View {
     $board.addClass("black");
     const colors = ['green', 'red', 'yellow', 'blue']
 
-    for (var i = 0; i < colors.length; i++) {
+    for (let i = 0; i < colors.length; i++) {
       let $square = $("<div>");
       $square.attr("id", "square");
       $square.data("color", colors[i]);

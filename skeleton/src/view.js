@@ -20,17 +20,20 @@ class View {
   }
 
   press($square) {
-    // calls flash() and adds to guesses and calls geame's check()
+    // calls flash(), adds to guesses, and calls game's check()
 
 
   }
 
   setupBoard() {
+    // Do this function first
     // populates the root element with a $board containing squares
     // add .black class to $board
     // add data for color for each square
 
     const $board = $("<div>");
+    const colors = ['green', 'red', 'yellow', 'blue']
+
 
   }
 }
